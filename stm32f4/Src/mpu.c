@@ -61,24 +61,24 @@ void i2cWrite(uint8_t registerAddress, uint8_t data)
 	i2cStop();
 }
 
-void MagnetInit(void) // украдено
+void MagnetInit(void)
 {
-	i2cWrite(0x24, 0x40); //Wait for Data at Slave0
-	i2cWrite(0x25, 0x8C); //Set i2c address at slave0 at 0x0C
-	i2cWrite(0x26, 0x02); //Set where reading at slave 0 starts
-	i2cWrite(0x27, 0x88); //set offset at start reading and enable
-	i2cWrite(0x28, 0x0C); //set i2c address at slv1 at 0x0C
-	i2cWrite(0x29, 0x0A); //Set where reading at slave 1 starts
-	i2cWrite(0x2A, 0x81); //Enable at set length to 1
-	i2cWrite(0x64, 0x01); //overvride register
-	i2cWrite(0x67, 0x03); //set delay rate
+	i2cWrite(0x24, 0x40);
+	i2cWrite(0x25, 0x8C);
+	i2cWrite(0x26, 0x02); 
+	i2cWrite(0x27, 0x88);
+	i2cWrite(0x28, 0x0C); 
+	i2cWrite(0x29, 0x0A); 
+	i2cWrite(0x2A, 0x81); 
+	i2cWrite(0x64, 0x01); 
+	i2cWrite(0x67, 0x03); 
 	i2cWrite(0x01, 0x80);
-	i2cWrite(0x34, 0x04); //set i2c slv4 delay
-	i2cWrite(0x64, 0x00); //override register
-	i2cWrite(0x6A, 0x00); //clear usr setting
-	i2cWrite(0x64, 0x01); //override register
-	i2cWrite(0x6A, 0x20); //enable master i2c mode
-	i2cWrite(0x34, 0x13); //disable slv4
+	i2cWrite(0x34, 0x04);
+	i2cWrite(0x64, 0x00);
+	i2cWrite(0x6A, 0x00);
+	i2cWrite(0x64, 0x01);
+	i2cWrite(0x6A, 0x20);
+	i2cWrite(0x34, 0x13);
 }
 
 int8_t initMPU(void)
@@ -91,10 +91,7 @@ int8_t initMPU(void)
 	//i2cWrite(0x1A, 6);
 	i2cWrite(0x6B, 0); // wakeup mpu
 	MagnetInit();
-	i2cWrite(0x6B, 0x80); // Write a one to bit 7 reset bit; toggle reset device
-   
-// get stable time source
-// Set clock source to be PLL with x-axis gyroscope reference, bits 2:0 = 001
+	i2cWrite(0x6B, 0x80);
   i2cWrite(0x6B, 0x01);  
   i2cWrite(0x6C, 0x00); 
   
@@ -109,10 +106,10 @@ void readMPU(MEMS* mpu)
 	mpu->accelerometer.x = (int16_t)(((i2cRead(ACCEL_XOUT_H)<<8)|i2cRead(ACCEL_XOUT_L)))/16384.0f;
 	mpu->accelerometer.y = (int16_t)(((i2cRead(ACCEL_YOUT_H)<<8)|i2cRead(ACCEL_YOUT_L)))/16384.0f;
 	mpu->accelerometer.z = (int16_t)(((i2cRead(ACCEL_ZOUT_H)<<8)|i2cRead(ACCEL_ZOUT_L)))/16384.0f;
-	mpu->gyroscope.x = (int16_t)(((i2cRead(GYRO_XOUT_H)<<8)|i2cRead(GYRO_XOUT_L)))/131.0f/* + 2.03185f*/;
-	mpu->gyroscope.y = (int16_t)(((i2cRead(GYRO_YOUT_H)<<8)|i2cRead(GYRO_YOUT_L)))/131.0f/* + 1.94487f*/;
-	mpu->gyroscope.z = (int16_t)(((i2cRead(GYRO_ZOUT_H)<<8)|i2cRead(GYRO_ZOUT_L)))/131.0f/* + 1.36275f*/;
-	mpu->compass.x = (int16_t)(((i2cRead(CMPS_XOUT_H)<<8)|i2cRead(CMPS_XOUT_L)))*10*1229/4096/*3.3319772172497965825874694873881f*/;
-	mpu->compass.y = (int16_t)(((i2cRead(CMPS_YOUT_H)<<8)|i2cRead(CMPS_YOUT_L)))*10*1229/4096/*3.3319772172497965825874694873881f*/;
-	mpu->compass.z = (int16_t)(((i2cRead(CMPS_ZOUT_H)<<8)|i2cRead(CMPS_ZOUT_L)))*10*1229/4096/*3.3319772172497965825874694873881f*/;
+	mpu->gyroscope.x = (int16_t)(((i2cRead(GYRO_XOUT_H)<<8)|i2cRead(GYRO_XOUT_L)))/131.0f;
+	mpu->gyroscope.y = (int16_t)(((i2cRead(GYRO_YOUT_H)<<8)|i2cRead(GYRO_YOUT_L)))/131.0f;
+	mpu->gyroscope.z = (int16_t)(((i2cRead(GYRO_ZOUT_H)<<8)|i2cRead(GYRO_ZOUT_L)))/131.0f;
+	mpu->compass.x = (int16_t)(((i2cRead(CMPS_XOUT_H)<<8)|i2cRead(CMPS_XOUT_L)))*10*1229/4096;
+	mpu->compass.y = (int16_t)(((i2cRead(CMPS_YOUT_H)<<8)|i2cRead(CMPS_YOUT_L)))*10*1229/4096;
+	mpu->compass.z = (int16_t)(((i2cRead(CMPS_ZOUT_H)<<8)|i2cRead(CMPS_ZOUT_L)))*10*1229/4096;
 }

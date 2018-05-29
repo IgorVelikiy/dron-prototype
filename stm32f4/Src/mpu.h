@@ -1,7 +1,7 @@
 #ifndef MPU_H
 #define MPU_H
 #include "stm32f4xx.h"
-//украдено:
+//
 #define ACCEL_XOUT_H       0x3B   // R  
 #define ACCEL_XOUT_L       0x3C   // R  
 #define ACCEL_YOUT_H       0x3D   // R  
