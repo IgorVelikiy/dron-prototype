@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ClientSTM"
+             x:Class="ClientSTM.MainPage">
+    <ContentPage.Content>
+        <Grid x:Name="contentStack">
+
+            <AbsoluteLayout Margin="50" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="600" HeightRequest="600">
+                <Button x:Name="Forward" Text="Forw." AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0.1, 60, 60" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Back" Text="Back" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0.4, 60, 60" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Right" Text="Right" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.7, 0.25, 60, 60" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Left" Text="Left" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.3, 0.25, 60, 60" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Up" Text="Up" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0, 221, 32" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Down" Text="Down" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0.5, 221, 32" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Counterclockwise" Text="-" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.1, 0.1, 32, 221" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+                <Button x:Name="Clockwise" Text="+" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.9, 0.1, 32, 221" Pressed="onButtonPressed" Released="onButtonReleased"></Button>
+            </AbsoluteLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

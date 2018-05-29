@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+"/runtime:mrt100_app"
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\Игорь\.nuget\packages\microsoft.net.native.compiler\2.0.0\tools\x86\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\MDIL\ClientSTM.UWP.mdilexe"
+"/i:D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\MDIL"
+"/out:D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\Native\ClientSTM.UWP.exe"
+"/pdbAltPath:D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\bin\x86\Release\ilc"
+"/res:D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x86\2.0.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

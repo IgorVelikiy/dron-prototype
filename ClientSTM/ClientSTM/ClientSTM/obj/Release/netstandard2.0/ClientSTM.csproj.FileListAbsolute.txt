@@ -1,0 +1,11 @@
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\bin\Release\netstandard2.0\ClientSTM.deps.json
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\bin\Release\netstandard2.0\ClientSTM.dll
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\bin\Release\netstandard2.0\ClientSTM.pdb
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.csprojResolveAssemblyReference.cache
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.csproj.CoreCompileInputs.cache
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.App.xaml.g.cs
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.MainPage.xaml.g.cs
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.AssemblyInfoInputs.cache
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.AssemblyInfo.cs
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.dll
+D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM\obj\Release\netstandard2.0\ClientSTM.pdb

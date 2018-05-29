@@ -1,0 +1,12 @@
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\ClientSTM.dll"
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\ClientSTM.UWP.exe"
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Core.dll"
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.dll"
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.dll"
+"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.dll"
+/Lib:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\Игорь\.nuget\packages\microsoft.net.native.compiler\2.0.0\tools\x86\ilc\lib\Private"
+/WinMD:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"a68ee80f-26ff-4b43-a949-2da8957fcd37","IsOptedIn":true,"ProcessStartTime":636593835300185469,"UserId":"10d0d642-7e24-4062-8773-ee499e389920"}"
+/RdXmlPath:"C:\Users\Игорь\.nuget\packages\microsoft.net.native.compiler\2.0.0\tools\LibraryXML"
+/RunOnlyPreDR

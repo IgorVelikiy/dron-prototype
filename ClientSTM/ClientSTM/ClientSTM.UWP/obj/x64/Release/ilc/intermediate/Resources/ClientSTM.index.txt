@@ -1,0 +1,3 @@
+ClientSTM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  ClientSTM.App.xaml
+  ClientSTM.MainPage.xaml

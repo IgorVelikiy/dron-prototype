@@ -1,0 +1,12 @@
+/ref:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x86\2.0.0\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\Игорь\.nuget\packages\microsoft.net.native.compiler\2.0.0\tools\x86\ilc\lib\Private\\"
+/ref:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in"
+/ref:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\Игорь\.nuget\packages\microsoft.net.native.compiler\2.0.0\tools\csc"
+/out:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\ClientSTM.UWP.Sg"
+"@D:\VisualProjects\ClientSTM\ClientSTM\ClientSTM.UWP\obj\x86\Release\ilc\intermediate\ClientSTM.UWP.Sg\ComputedSerializationInput.txt"
