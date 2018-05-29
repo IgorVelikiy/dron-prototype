@@ -86,7 +86,7 @@ namespace ClientSTM
             App.stream.WriteByte(direction);
         }
 
-        public static void ReadingTcp(object objPage)
+        public static void ReadingTcp(object objPage) // TODO: is not working, may be dont synchronized
         {
             //Thread.Sleep(1000);
             while (true)
