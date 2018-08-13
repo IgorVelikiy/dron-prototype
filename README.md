@@ -7,3 +7,5 @@ TODO list:
 1. TCP does not work in the client at the reception.
 2. Pressing the buttons in the client lights the LEDs, because engines are not yet on hand.
 3. No stabilization function.
+
+Most likely the project will never be completed
